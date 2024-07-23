@@ -1,24 +1,78 @@
-# README
+# Projeto Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bem-vindo ao repositório do Projeto Blog! Este projeto é uma aplicação web de blog, onde os usuários podem criar, editar e visualizar postagens. Ele foi desenvolvido com o intuito de praticar e demonstrar habilidades em desenvolvimento web.
 
-Things you may want to cover:
+## Índice
 
-* Ruby version
+- [Visão Geral](#visão-geral)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Instalação](#instalação)
+- [Licença](#licença)
 
-* System dependencies
+## Visão Geral
 
-* Configuration
+O Projeto Blog é uma aplicação web simples para a criação e gestão de postagens de blog. 
 
-* Database creation
+## Funcionalidades
 
-* Database initialization
+- Criação de postagens
+- Edição de postagens
+- Exclusão de postagens
+- Visualização de todas as postagens
 
-* How to run the test suite
+## Tecnologias Utilizadas
 
-* Services (job queues, cache servers, search engines, etc.)
+- **Frontend:**
+  - HTML
+  - CSS
+  - JavaScript
 
-* Deployment instructions
+- **Backend:**
+  - Ruby on Rails
 
-* ...
+- **Banco de Dados:**
+  - SQLite (desenvolvimento)
+  - PostgreSQL (produção)
+
+## Instalação
+
+Para executar este projeto localmente, siga estas etapas:
+
+1. Clone o repositório:
+
+    ```bash
+    git clone https://github.com/lucasbizachi-dev/projeto-blog.git
+    ```
+
+2. Navegue até o diretório do projeto:
+
+    ```bash
+    cd projeto-blog
+    ```
+
+3. Instale as dependências:
+
+    ```bash
+    bundle install
+    ```
+
+4. Configure o banco de dados:
+
+    ```bash
+    rails db:create
+    rails db:migrate
+    ```
+
+5. Inicie o servidor:
+
+    ```bash
+    rails server
+    ```
+
+6. Abra o navegador e acesse `http://localhost:3000`.
+
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
