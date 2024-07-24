@@ -1,5 +1,12 @@
 # Projeto Blog
 
+![GitHub repo size](https://img.shields.io/github/repo-size/lucasbizachi-dev/projeto-blog)
+![GitHub language count](https://img.shields.io/github/languages/count/lucasbizachi-dev/projeto-blog)
+![GitHub top language](https://img.shields.io/github/languages/top/lucasbizachi-dev/projeto-blog?color=%23861a22)
+
+
+
+
 Bem-vindo ao repositório do Projeto Blog! Este projeto é uma aplicação web de blog, onde os usuários podem criar, editar e visualizar postagens. Ele foi desenvolvido com o intuito de praticar e demonstrar habilidades em desenvolvimento web.
 
 ## Índice
